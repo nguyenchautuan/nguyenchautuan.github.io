@@ -1,0 +1,123 @@
+body{
+    font-family: Tahoma;
+    font-size: 15px;
+    width: 1000px;
+    margin: 0px auto;
+}
+#menu{
+    width: 1000px;
+    height: 70px;
+    position: fixed;
+}
+#menu #logo{
+    background-color: black;
+    width: 350px;
+    height: 66px;
+    float: left;
+}
+#menu #top{
+    background-color: black;
+    width: 650px;
+    height: 66px;
+    float: left;
+}
+#banner{
+    height: auto;
+    width: 1000px;
+}
+#main #left{
+    width: 700px;
+    float: left;
+    min-height: 1000px;
+}
+#main #right{
+    width: 300px;
+    float: left;
+    min-height: 1000px;
+}
+#footer{
+    background-color: red;
+    width: 1000px;
+    text-align: center;
+    color: #fff;
+    clear: left;
+}
+#menu #top ul{
+    padding: 0px;
+    height: 20px;
+}
+#menu #top ul li{
+    list-style: none;
+    float: left;
+}
+#menu #top ul li a{
+    text-decoration: none;
+    display: block;
+    line-height: 44px;
+    color: #fff;
+    padding: 0px 35px 0px 55px;
+}    
+#menu #top ul li a:hover{
+    color: red;
+}
+#menu #logo img{
+    width: 86px;
+    height: 66px;
+    margin-left: 120px;
+}
+#banner img{
+    width: 1000px;
+    height: 450px;
+    margin-top: 70px;
+}
+#main #left h2{
+    color: red;
+    margin-left: 10px;
+}
+#main #left ul{
+    padding: 0px;
+    height: 0px;
+}
+#main #left ul li{
+    list-style: none;
+    text-decoration: none;
+    line-height: 25px;
+    font-size: 16px;
+    text-indent: 10px;
+}
+#main #left img{
+    width: 690px;
+    height: auto;
+    margin: 170px 10px 0px 0px;
+}
+#footer ul li{
+    list-style: none;
+    line-height: 26px;
+}
+#main #right h3{
+    background-color: aqua;
+    text-align: center;
+    margin-top: 24px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 10px;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+#main #right .menu_right ul{
+    margin-left: 10px;
+    margin-top: -18px;
+    padding: 0px;
+    border: 2px solid black;
+}
+#main #right .menu_right ul li{
+    list-style: none;
+    text-decoration: none;
+    margin-left: 10px;
+}
+#main #right .menu_right ul img{
+    width: 270px;
+    margin-left: 8px;
+    margin-top: 4px;
+}
